@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*圆角*/
+			.box1{
+				width: 200px;
+				height: 200px;
+				background: #0000FF;
+				border-radius: 10px 30px 50px 70px;
+			}
+			/*圆*/
+			.box2{
+				width: 200px;
+				height: 200px;
+				background: #00FFFF;
+				border-radius: 100px;
+			}
+			/*半圆*/
+			.box3{
+				width: 200px;
+				height: 100px;
+				background: #ff00ff;
+				border-radius: 100px 100px 0 0;
+			}  
+			/*椭圆*/
+			.box4{
+				width: 200px;
+				height: 150px;
+				background: #ff0000;
+				border-radius: 100px/75px;
+				               /*水平半径（宽度一半）/垂直半径(高度一半)*/  
+			}
+		</style>
+	</head>
+	<body>
+		<!--div[class=box]*4-->
+		<div class="box1"></div>
+		<div class="box2"></div>
+		<div class="box3"></div>
+		<div class="box4"></div>
+	</body>
+</html>
